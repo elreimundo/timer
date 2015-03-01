@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.timer {
+  font-family: 'Keania One', cursive;
+  color: green;
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  top: 50%;
+  margin-top: -100px;
+  left: 50%;
+  margin-left: -200px;
+  border: 1px solid green;
+}
+
+.timer-text {
+  margin-top: -1em;
+  top: 50%;
+  position: absolute;
+  width: 200px;
+  margin-left: -100px;
+  left: 50%;
+  text-align: center;
+  font-size: 40px;
+}
